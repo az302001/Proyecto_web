@@ -1,14 +1,40 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
-import styles from '@/styles/Home.module.css'
+import styles from './index.module.css'
+import NadvarExterno from '@/Components/NadvarExterno/NadvarExterno'
+import img from '@/Assets/portada.jpg'
+import Footer from '@/Components/Footer/Footer'
+import Link from 'next/link'
 
-const inter = Inter({ subsets: ['latin'] })
+
 
 export default function Home() {
   return (
-    <>
-      <h1>Hola</h1>
-    </>
+    <div className={styles.padre}>
+      <NadvarExterno />
+      <div className={styles.container}>
+        <div className={styles.contentImagen}>
+          <div></div>
+          <Image src={img} className={styles.imagen} />
+        </div>
+        <div className={styles.data}>
+          <div className={styles.frase}>
+            <h1>¡Somos Expertos en el Desarrollo de Sistemas, Contabilidad y más!</h1>
+          </div>
+          <div className={styles.Boxbutton}>
+            <Link className={styles.boton} href={'/Nosotros'}>
+              Conocenos
+              <div className={styles.wrapper}>
+                <div className={styles.arrow}></div>
+
+              </div>
+            </Link>
+          </div>
+        </div>
+
+        <Footer />
+      </div>
+    </div>
   )
 }

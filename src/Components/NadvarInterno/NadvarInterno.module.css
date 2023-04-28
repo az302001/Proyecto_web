@@ -1,0 +1,78 @@
+
+.container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    background: rgb(0, 173, 239);
+    gap: 5%;
+}
+
+.content{
+    display: flex;
+    width: 100%;
+}
+
+.title{
+    padding-top: 0.8%;
+    padding-left: 2%;
+    height: 10vh;
+    width: 60%;
+}
+
+.Buscador{
+    display: flex;
+    padding-top: 1%;
+    width: 40%;
+
+}
+
+.continput{
+    width: 40%;
+   
+}
+
+.input{
+    height: 45%;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+}
+
+.title h1{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-style: italic;
+    font-size: 40px;
+}
+
+.contboton{
+    width: 30%;
+    padding-left: 4%;
+}
+
+.boton{
+    height: 45%;
+    width: 50%;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    background: rgba(19, 19, 115, 0.468);
+    color: white;
+    
+}
+
+.return{
+    width: 30%;
+}
+
+.retorno{
+    height: 45%;
+    width: 80%;
+    border-radius: 10px;
+    border: none;
+    background: rgba(188, 11, 11, 0.875);
+    color: white;
+    cursor: pointer;
+
+}

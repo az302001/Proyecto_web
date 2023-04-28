@@ -1,0 +1,63 @@
+
+.father{
+    background: rgb(0, 173, 239);
+    padding:0;
+    margin: 0;
+    width: 100%;
+}
+
+.son{
+    display: flex;
+    
+}
+
+.title{
+    width: 70%;
+    padding-left: 2%;
+    color: white;
+}
+
+
+.title h1{
+    font-style: italic;
+}
+
+
+.Navegacion{
+    width: 30%;
+    display: flex;
+    list-style: none;
+    gap: 4%;
+    color: white;
+
+}
+
+.ruta{
+    text-decoration: none;
+    width: 50%;
+    display: flex;
+    list-style: none;
+    gap: 4%;
+    color: white;
+}
+.ruta:hover{
+    background-color: rgba(255, 254, 254, 0.193);
+}
+
+
+
+
+.Navegacion ul{
+    font-size: 20px;
+    padding: 0;
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+.Navegacion li{
+    /* margin-top: 1%; */
+    width: 100%;
+    cursor: pointer;
+    margin-top: 8%;
+}

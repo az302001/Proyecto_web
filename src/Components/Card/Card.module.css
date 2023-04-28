@@ -1,0 +1,84 @@
+.data{
+    height: 50vh;
+    width: 100%;
+    /* display: flex; */
+    display: grid;
+    gap: 1%;
+    justify-items: center;
+}
+
+
+/* css para carta */
+
+.card {
+    width: 70%;
+    height: 40vh;
+    border-radius: 20px;
+    background: #f5f5f5;
+    position: relative;
+    padding: 1%;
+    border: 2px solid #c3c6ce;
+    transition: 0.5s ease-out;
+    overflow: visible;
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 10%;
+
+   }
+   .contentimage{
+    width: 100%;
+    height: 177px;
+   }
+
+   .imagen{
+    width: 100%;
+    height: 100%;
+    border-radius: 15%;
+   }
+   
+   .detail {
+    color: black;
+    height: 127px;
+    width: 100%;
+    gap: .5em;
+    display: grid;
+    place-content: center;
+   }
+   
+   .button {
+    transform: translate(-50%, 125%);
+    width: 60%;
+    border-radius: 1rem;
+    border: none;
+    background-color: rgb(0, 173, 239);
+    color: #fff;
+    font-size: 1rem;
+    padding: .5rem 1rem;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    opacity: 0;
+    transition: 0.3s ease-out;
+   }
+   
+   .text{
+    color: rgb(134, 134, 134);
+   }
+   
+   /*Text*/
+   .title {
+    font-size: 1.5em;
+    font-weight: bold;
+   }
+   
+   /*Hover*/
+   .card:hover {
+    border-color: #008bf8;
+    box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
+   }
+   
+   .card:hover .button {
+    transform: translate(-50%, 50%);
+    opacity: 1;
+    cursor: pointer;
+   }
