@@ -3,7 +3,7 @@ import styles from './Card.module.css'
 import Link from 'next/link'
 import Image from 'next/image'
 
-function Card({imagen,nombre}) {
+function Card({imagen,nombre,tipo}) {
   return (
     <div className={styles.data}>
        <div className={styles.card}>
@@ -11,7 +11,7 @@ function Card({imagen,nombre}) {
             <div className={styles.detail}>
               <p className={styles.title}>{nombre}</p>         
             </div>
-            <button className={styles.button}>Mas informacion</button>
+            <Link href={`/${tipo}/${nombre}`}className={styles.button}>Mas informacion</Link>
           </div>
     </div>
   )

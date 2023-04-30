@@ -59,6 +59,8 @@
     bottom: 0;
     opacity: 0;
     transition: 0.3s ease-out;
+    text-decoration: none;
+    font-weight: bold;
    }
    
    .text{

@@ -9,7 +9,7 @@ const Cards = ({c}) => {
             c.map((e, i)=>{
                 return(
 
-                    <Card key={i} nombre={e.nombre} imagen={e.img}/>
+                    <Card key={i} nombre={e.nombre} imagen={e.img} tipo={e.tipo}/>
                 )
                 
             })

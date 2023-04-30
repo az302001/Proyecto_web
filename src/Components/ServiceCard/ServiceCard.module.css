@@ -3,6 +3,7 @@
   padding: 0;
   height: 85.2vh;
   overflow: hidden;
+  width: 35%;
 }
 
 .data{
@@ -23,7 +24,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 5%;
+    gap: 1%;
     height: 85.1vh;
   }
   
@@ -43,7 +44,7 @@
   
   .card_box:hover {
     transform: scale(0.9);
-    box-shadow: 0 0 40px blue;
+    /* box-shadow: 0 0 40px blue; */
   }
   
   .card_box span {

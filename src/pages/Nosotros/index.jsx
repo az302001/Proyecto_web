@@ -35,7 +35,11 @@ const index = () => {
 
                 <div className={styles.Valores}>
                     <h1>Nuestros Valores</h1>
-                    <p>HONESTOS: Hacemos lo que decimos y decimos lo que hacemos. SENCILLOS: Creemos que las cosas buenas, mientras más simples sean, mejores son. TESONEROS: Trabajamos duro hasta alcanzar lo que queremos. SERVICIALES: Nos apasiona la idea de servir con amabilidad a los demás. JUSTOS: Procuramos tratar a otros como deseamos que nos traten a nosotros.</p>
+                    <p>HONESTOS: Hacemos lo que decimos y decimos lo que hacemos. 
+                        SENCILLOS: Creemos que las cosas buenas, mientras más simples sean, mejores son.<br/>
+                        TESONEROS: Trabajamos duro hasta alcanzar lo que queremos. 
+                        SERVICIALES: Nos apasiona la idea de servir con amabilidad a los demás.<br/> 
+                        JUSTOS: Procuramos tratar a otros como deseamos que nos traten a nosotros.</p>
                     <Image src={img03} className={styles.img} />
                 </div>
             </div>
