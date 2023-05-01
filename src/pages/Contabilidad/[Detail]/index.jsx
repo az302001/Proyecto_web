@@ -5,7 +5,7 @@ import { useRouter } from 'next/router'
 import Footer from '@/Components/Footer/Footer'
 import Image from 'next/image'
 
-const index = ({ data }) => {
+const Conta = ({ data }) => {
 
   console.log(data)
 
@@ -63,4 +63,4 @@ export async function getServerSideProps(context) {
 }
 
 
-export default index
+export default Conta
