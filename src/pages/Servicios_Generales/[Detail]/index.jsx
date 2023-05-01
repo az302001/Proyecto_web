@@ -6,7 +6,7 @@ import Footer from '@/Components/Footer/Footer'
 import Image from 'next/image'
 import Link from 'next/link'
 
-const index = ({ data }) => {
+const Sgenerales = ({ data }) => {
 
   console.log(data)
 
@@ -60,4 +60,4 @@ export async function getServerSideProps(context) {
 }
 
 
-export default index
+export default Sgenerales;
