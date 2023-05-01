@@ -9,7 +9,7 @@ const Dsistemas = ({ data }) => {
 
   console.log(data)
 
-  const quitar = data.tipo.replace("_"," ", "_", " ")ñ
+  const quitar = data.tipo.replace("_"," ")
 
   const router = useRouter()
 

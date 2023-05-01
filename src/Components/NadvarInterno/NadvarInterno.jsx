@@ -55,7 +55,7 @@ const NadvarInterno = () => {
             {sericesSearch.length > 0 && (
               <div className="z-10 absolute w-full max-h-[400px] overflow-y-auto right-0">
                 {sericesSearch.map((e, i) => (
-                  <div>{e.nombre}</div>
+                  <div key={i}>{e.nombre}</div>
                 ))}
               </div>
             )}
