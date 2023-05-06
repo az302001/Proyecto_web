@@ -3,10 +3,12 @@ import NadvarInterno from '@/Components/NadvarInterno/NadvarInterno'
 import React from 'react'
 import {conta} from '@/Data/Data'
 import Footer from '@/Components/Footer/Footer'
+import styles from './Contabilidad.module.css'
+
 
 const index = () => {
   return (
-    <div>
+    <div className={styles.container}>
         <NadvarInterno/>
         <Cards c={conta}/>
         <Footer/>

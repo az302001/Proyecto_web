@@ -114,3 +114,86 @@ height: 100vh;
 
 
 /* **************************************************************************** */
+
+/* para mobile */
+
+@media screen and (max-width:500px){
+  
+  .padre{
+    height: 100vh;
+  }
+  
+  .contentImagen{
+    height: 85.2vh;
+    object-fit: cover;
+  }
+  
+  .data{
+    font-size: 7px;
+    height: 10%;
+    padding-top: 2%;
+  }
+  
+  .frase {
+    width: 70%;
+    
+  }
+  .frase h1{
+    padding: 0;
+  }
+  
+  .Boxbutton{
+    width: 30%;
+  }
+  .boton{
+    width: 100%;
+    font-size: 10px;
+    
+  }
+}
+
+
+
+
+/* para table  */
+
+@media screen and (min-width:500px){
+  .contentImagen{
+    height: 79%;
+  }
+
+  .data{
+    height: 8vh;
+  }
+
+  .boton{
+    width: 100%;
+    font-size: 18px;
+  }
+
+  .frase h1{
+    font-size: 25px;
+  }
+
+}
+
+
+@media screen and (min-width: 1080px){
+  .contentImagen{
+    height: 75.2%;
+  }
+
+  .boton{
+    font-size: 12px;
+    width: 40%;
+  }
+
+  .frase h1{
+    font-size: 20px;
+  }
+
+  .data{
+    height: 10%;
+  }
+
+}

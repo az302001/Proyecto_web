@@ -123,3 +123,70 @@
   .wsp:hover {
     background-color: #25D366;
   }
+
+
+  @media screen and (max-width:500px){
+    .content {
+     position: fixed;
+    }
+     
+    .cuerpo{
+     width: 90%;
+     height: 85%;
+    }
+ 
+    .cuerpo p{
+     font-size: 13px;
+    }
+ 
+    .img{
+     width: 90%;
+     height: 60%;
+    }
+ 
+    .contentimg{
+     display: flex;
+     align-items: center;
+    }
+ 
+    .wsp {
+     width: 40vw;
+    }
+ 
+    .title{
+     width: 65%;
+    }
+    .nadvar h1{
+     font-size: 17px;
+    }
+ 
+    .boton{
+     width: 35%;
+    }
+    .back{
+     font-size: 10px;
+    }
+ 
+   }
+
+   @media screen and (min-width:500px){
+    .wsp {
+      width: 18vw;
+     }
+
+     .img{
+      width: 90%;
+     }
+
+     .cuerpo{
+      width: 80%;
+     }
+     .boton{
+      width: 40%;
+     }
+     .back{
+      font-size: 18px;
+     }
+  }
+
+

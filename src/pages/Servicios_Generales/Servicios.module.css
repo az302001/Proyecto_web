@@ -1,0 +1,9 @@
+/* .container{
+    position: fixed;
+  } */
+
+  @media screen and (min-width:1080px){
+    .container{
+      overflow: hidden;
+    }
+  }

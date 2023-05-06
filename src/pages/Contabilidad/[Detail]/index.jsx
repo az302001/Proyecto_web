@@ -15,7 +15,7 @@ const Conta = ({ data }) => {
 
   return (
 
-    <div className={styles.container}>
+    <div className={styles.content}>
       <div className={styles.nadvar}>
         <div className={styles.title}>
           <h1>Bienvenido a los detalles del servicio de {data.nombre}</h1>
@@ -42,11 +42,7 @@ const Conta = ({ data }) => {
             </a>
           </button>
         </div>
-
       </div>
-
-
-
       <Footer />
     </div>
   )

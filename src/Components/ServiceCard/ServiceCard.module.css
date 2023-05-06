@@ -26,6 +26,7 @@
     justify-content: center;
     gap: 1%;
     height: 85.1vh;
+    overflow: hidden;
   }
   
   .card_box {
@@ -155,3 +156,44 @@
     background-image: linear-gradient(45deg, #FF512F 0%, #F09819  51%, #FF512F  100%);
   } 
   
+  @media screen and (max-width: 500px) {
+    .father{
+      width: 100%;
+      height: 70vh;
+    }
+
+    .card_box {
+      width: 80%;
+      height: 60vh;
+    }
+    .container{
+      height: auto;
+      padding: 5%;
+    }
+
+
+  }
+
+  @media screen and (min-width:415px) {
+    .card_box{
+      width: 30vw;
+      object-fit: cover;
+    }
+
+    .father{
+      height: 87.2vh;
+    }
+  }
+
+
+  @media screen and (min-width: 1080px){
+    .card_box{
+      width: 20vw;
+    }
+
+    .father{
+      height: 85.2vh;
+    }
+
+
+  }

@@ -1,7 +1,7 @@
 .footer {
     background: rgb(0, 173, 239);
     text-align: center;
-    height:5vh;
+    height:6vh;
 }
 
 .footer h4 {
@@ -11,4 +11,30 @@
     padding-top: 15px;
     margin-top: -0.5%;
     font-size: 16px;
+}
+
+
+@media screen and (max-width:540px){
+    .footer h4{
+        font-size: 9px;
+    }
+}
+
+@media screen and (min-width: 500px) {
+    .footer h4{
+        font-size: 20px;
+        height: 100vh;
+    }
+}
+
+@media screen and (min-width:1080px){
+
+    .footer {
+        height: 5vh;
+    }
+
+    .footer h4{
+        font-size: 15px;
+        height: 100vh;
+    }
 }

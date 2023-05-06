@@ -15,7 +15,6 @@ export default function Home() {
       <NadvarExterno />
       <div className={styles.container}>
         <div className={styles.contentImagen}>
-          <div></div>
           <Image src={img} className={styles.imagen} />
         </div>
         <div className={styles.data}>

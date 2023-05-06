@@ -7,6 +7,15 @@
     gap: 5%;
 }
 
+ .contentMinicard{
+ position: absolute;
+    background: rgb(0, 173, 239);
+    z-index: 999;
+    width: 19%;
+    text-align: center;
+
+}
+
 .content{
     display: flex;
     width: 100%;
@@ -23,22 +32,24 @@
     display: flex;
     padding-top: 1%;
     width: 40%;
+    gap: 10%;
 
 }
 
 .continput{
-    width: 40%;
+    width: 60%;
    
 }
 
 .input{
     height: 45%;
     width: 100%;
-    border-radius: 5px;
+    /* border-radius: 5px; */
     border: none;
+    
 }
 
-.title h1{
+.titleResponsive{
     margin: 0;
     padding: 0;
     color: white;
@@ -76,3 +87,47 @@
     cursor: pointer;
 
 }
+
+@media screen and (max-width:500px){
+    .titleResponsive {
+        font-size: 20px;
+    }
+    .title{
+        width: 40%;
+    }
+
+    .Buscador{
+        width: 60%;
+    }
+
+    .continput{
+        width: 40%;
+    }
+
+    .contboton{
+        width: 30%;
+        padding-left: 4%;
+    }
+
+    .retorno{
+        width: 100%;
+        font-size: 10px;
+    }
+    .return{
+        width: 50%;
+    }
+
+    .continput{
+        width: 50%;
+    }
+
+    .content{
+        gap: 5%;
+    }
+}
+
+/* @media screen and (min-width: 1080px){
+    .title{
+        width: 100%;
+    }
+} */
