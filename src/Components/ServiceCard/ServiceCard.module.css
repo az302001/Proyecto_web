@@ -1,7 +1,7 @@
 .father{
   margin: 0;
   padding: 0;
-  height: 85.2vh;
+  height: 86.2vh;
   overflow: hidden;
   width: 35%;
 }
@@ -174,7 +174,7 @@
 
   }
 
-  @media screen and (min-width:415px) {
+  @media screen and (max-width:980px) {
     .card_box{
       width: 30vw;
       object-fit: cover;
@@ -185,15 +185,3 @@
     }
   }
 
-
-  @media screen and (min-width: 1080px){
-    .card_box{
-      width: 20vw;
-    }
-
-    .father{
-      height: 85.2vh;
-    }
-
-
-  }

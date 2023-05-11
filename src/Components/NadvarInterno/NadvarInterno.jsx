@@ -48,7 +48,7 @@ const NadvarInterno = () => {
     <div className={styles.container}>
       <div className={styles.content}>
         <div className={styles.title}>
-          <h1 className={styles.titleResponsive}>Bievenido a la tienda de AOSC</h1>
+          <h1>Bievenido a la tienda de AOSC</h1>
         </div>
         <div className={styles.Buscador}>
           <div className={styles.continput}>

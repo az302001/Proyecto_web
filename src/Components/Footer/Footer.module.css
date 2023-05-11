@@ -1,6 +1,8 @@
 .footer {
     background: rgb(0, 173, 239);
-    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
     height:6vh;
 }
 
@@ -8,26 +10,27 @@
     margin: 0;
     padding: 0;
     color: white;
-    padding-top: 15px;
-    margin-top: -0.5%;
-    font-size: 16px;
+    font-size: 25px;
 }
 
 
-@media screen and (max-width:540px){
-    .footer h4{
-        font-size: 9px;
-    }
-}
 
-@media screen and (min-width: 500px) {
+@media screen and (max-width: 980px) {
     .footer h4{
         font-size: 20px;
         height: 100vh;
     }
 }
 
-@media screen and (min-width:1080px){
+@media screen and (max-width:540px){
+    .footer h4{
+        font-size: 9px;
+        height: 2vh;
+        margin: 0;
+        padding: 0;
+    }
+}
+/* @media screen and (min-width:1080px){
 
     .footer {
         height: 5vh;
@@ -37,4 +40,4 @@
         font-size: 15px;
         height: 100vh;
     }
-}
+} */

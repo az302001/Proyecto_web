@@ -25,19 +25,32 @@
     padding-top: 0.8%;
     padding-left: 2%;
     height: 10vh;
-    width: 60%;
+    width: 75%;
+    display: flex;
+    align-items: center;
+}
+
+.title h1{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-style: italic;
+    font-size: 50px;
+
 }
 
 .Buscador{
     display: flex;
     padding-top: 1%;
-    width: 40%;
+    width: 25%;
     gap: 10%;
 
 }
 
 .continput{
-    width: 60%;
+    width: 70%;
+    align-items: center;
+    display: flex;
    
 }
 
@@ -46,20 +59,22 @@
     width: 100%;
     /* border-radius: 5px; */
     border: none;
+    font-size: 20px;
     
 }
 
-.titleResponsive{
+/* .titleResponsive{
     margin: 0;
     padding: 0;
     color: white;
     font-style: italic;
     font-size: 40px;
-}
+} */
 
 .contboton{
     width: 30%;
     padding-left: 4%;
+  
 }
 
 .boton{
@@ -75,6 +90,8 @@
 
 .return{
     width: 30%;
+    display: flex;
+    align-items: center;
 }
 
 .retorno{
@@ -85,6 +102,7 @@
     background: rgba(188, 11, 11, 0.875);
     color: white;
     cursor: pointer;
+    font-size: 20px;
 
 }
 
@@ -126,8 +144,3 @@
     }
 }
 
-/* @media screen and (min-width: 1080px){
-    .title{
-        width: 100%;
-    }
-} */
