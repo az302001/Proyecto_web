@@ -7,7 +7,7 @@
 }
 
 .contentImagen{
-    height: 76.5%;
+    height: 72.5%;
 }
 
 .imagen{
@@ -130,13 +130,39 @@
   }
   
   
+  
+  @media screen and (max-width:980px) {
+    .contentImagen {
+      height: 72vh;
+    }
+    
+    .data {
+      height:12vh;
+    }
+    
+    
+    .frase h1 {
+      font-size: 25px;
+    }
+    
+    .frase {
+      display: flex;
+      align-items: center;
+    }
+    .boton {
+      width: 100%;
+      font-size: 20px;
+    }
+  }
+
+
   @media screen and (max-width: 420px) {
     .contentImagen {
       height: 85vh;
     }
 
     .data {
-      height: 10vh;
+      height: 11vh;
     }
   
     .frase h1 {
@@ -145,10 +171,10 @@
   
     .Boxbutton {
       width: 40%;
-      font-size: 16px;
     }
   
     .boton {
       width: 100%;
+      font-size: 12px;
     }
   }

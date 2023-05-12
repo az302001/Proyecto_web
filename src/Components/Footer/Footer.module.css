@@ -10,17 +10,29 @@
     margin: 0;
     padding: 0;
     color: white;
-    font-size: 25px;
+    font-size: 15px;
 }
+
 
 
 
 @media screen and (max-width: 980px) {
     .footer h4{
         font-size: 20px;
-        height: 100vh;
+        margin: 0;
+        padding-top: 4%;
+    }
+
+    .footer{
+        height: 10vh;
+        display: flex;
+        align-items: start;
+        padding-top: 2%;
+    
     }
 }
+
+
 
 @media screen and (max-width:540px){
     .footer h4{
@@ -28,16 +40,19 @@
         height: 2vh;
         margin: 0;
         padding: 0;
+
+    }
+
+    .footer{
+        height: 3.5vh;
     }
 }
-/* @media screen and (min-width:1080px){
 
-    .footer {
-        height: 5vh;
-    }
 
-    .footer h4{
-        font-size: 15px;
-        height: 100vh;
-    }
-} */
+
+
+
+
+
+
+

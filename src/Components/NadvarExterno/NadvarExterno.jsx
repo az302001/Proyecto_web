@@ -41,7 +41,7 @@ const NadvarExterno = () => {
         <div className={styles.Navegacion}>
           <Link href={"/"} className={styles.ruta}><li><ul>Inicio</ul></li></Link>
           <Link href={"/Servicios"} className={styles.ruta}><li><ul>Servicios</ul></li></Link>
-          {/* <Link href={"/Contacto"}   className={styles.ruta}><li><ul>Contacto</ul></li></Link>    */}
+          <Link href={"/Contacto"}   className={styles.ruta}><li><ul>Contacto</ul></li></Link>   
           <Link href={"/Nosotros"} className={styles.ruta}><li><ul>Sobre nosotros</ul></li></Link>
 
         </div>
@@ -54,7 +54,7 @@ const NadvarExterno = () => {
         <div className={styles.Navegacionresponsive}>
           <Link href={"/"} className={styles.rutaResponsive}><li><ul>Inicio</ul></li></Link>
           <Link href={"/Servicios"} className={styles.rutaResponsive}><li><ul>Servicios</ul></li></Link>
-          {/* <Link href={"/Contacto"}   className={styles.ruta}><li><ul>Contacto</ul></li></Link>    */}
+          <Link href={"/Contacto"}   className={styles.rutaResponsive}><li><ul>Contacto</ul></li></Link>   
           <Link href={"/Nosotros"} className={styles.rutaResponsive}><li><ul>Sobre nosotros</ul></li></Link>
 
         </div>

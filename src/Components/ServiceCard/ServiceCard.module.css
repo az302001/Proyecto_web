@@ -1,7 +1,7 @@
 .father{
   margin: 0;
   padding: 0;
-  height: 86.2vh;
+  height: 81.8vh;
   overflow: hidden;
   width: 35%;
 }
@@ -156,32 +156,33 @@
     background-image: linear-gradient(45deg, #FF512F 0%, #F09819  51%, #FF512F  100%);
   } 
   
-  @media screen and (max-width: 500px) {
-    .father{
-      width: 100%;
-      height: 70vh;
-    }
-
-    .card_box {
-      width: 80%;
-      height: 60vh;
-    }
-    .container{
-      height: auto;
-      padding: 5%;
-    }
-
-
-  }
-
   @media screen and (max-width:980px) {
+
     .card_box{
       width: 30vw;
       object-fit: cover;
     }
 
     .father{
-      height: 87.2vh;
+      height: 83.2vh;
+      
     }
+  }
+  @media screen and (max-width: 500px) {
+    .father{
+      width: 100%;
+      height: 60vh;
+    }
+
+    .card_box {
+      width: 80%;
+      height: 50vh;
+    }
+    .container{
+      height: 35%;
+      padding: 5%;
+    }
+
+
   }
 

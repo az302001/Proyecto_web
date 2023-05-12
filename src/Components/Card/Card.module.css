@@ -12,7 +12,7 @@
 
 .card {
     width: 60%;
-    height: 36vh;
+    height: 35vh;
     border-radius: 20px;
     background: #f5f5f5;
     position: relative;
@@ -53,7 +53,7 @@
     border: none;
     background-color: rgb(0, 173, 239);
     color: #fff;
-    font-size: 22px;
+    font-size: 12px;
     padding: .5rem 1rem;
     position: absolute;
     left: 50%;
@@ -70,7 +70,7 @@
    
    /*Text*/
    .title {
-    font-size: 1.5em;
+    font-size: 1.2em;
     font-weight: bold;
    }
    
@@ -86,6 +86,25 @@
     cursor: pointer;
    }
 
+   @media screen and (max-width:980px) {
+    .card{
+        height: 30vh;
+        width: 80%;
+    }
+
+    .title{
+        font-size: 1.5em;
+    }
+
+    .data{
+        height: 42vh;
+    }
+    .button{
+        width: 58%;
+        font-size: 20px;
+    }
+
+   }
 
    @media screen and (max-width:500px){
     .card{
@@ -109,7 +128,7 @@
 
     .imagen{
         height: 80%;
-        width: 100%;
+        width: 80%;
     }
     .button{
         width: 35%;
@@ -126,28 +145,5 @@
 
    }
 
-   @media screen and (max-width:980px) {
-    .card{
-        height: 30vh;
-    }
+  
 
-    .title{
-        font-size: 1em;
-    }
-
-    .data{
-        height: 42vh;
-    }
-
-   }
-/* 
-   @media screen and (max-width: 980px){
-    .card{
-        height: 35vh;
-    }
-
-    .data{
-        height: 40.5vh;
-        margin-bottom: 2%;
-    }
-   } */

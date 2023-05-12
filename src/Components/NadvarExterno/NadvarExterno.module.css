@@ -11,7 +11,7 @@
 }
 
 .title {
-    width: 70%;
+    width: 50%;
     padding-left: 2%;
     color: white;
 }
@@ -24,10 +24,10 @@
 
 
 .Navegacion {
-    width: 30%;
+    width: 50%;
     display: flex;
     list-style: none;
-    gap: 4%;
+    gap: 1%;
     color: white;
 
 }
@@ -79,40 +79,6 @@
 .visible {
     display: block;
 }
-
-
-
-/* @media screen and (max-width: 768px) {
-    .son {
-        display: none;
-    }
-
-    .mostrar {
-        display: block;
-    }
-
-    .btnMenu {
-        display: block;
-        position: absolute;
-        z-index: 999;
-        height: 3vh;
-        width: 3%;
-        cursor: pointer;
-        padding: 2%;
-    }
-
-} */
-
-
-/* @media screen and (min-width: 500px) {
-    .title{
-        width: 60%;
-    }
-
-    .Navegacion{
-        width: 40%;
-    }
-} */
 
 @media screen and (max-width: 500px) {
     .btnMenu {
@@ -179,25 +145,13 @@
 }
 
 
-@media screen and (min-width: 500px) {
+@media screen and (max-width: 980px) {
     .title{
-        width: 60%;
+        width: 40%;
     }
 
     .Navegacion{
-        width: 40%;
+        width: 60%;
     }
 }
 
-
-/* @media screen and (min-width: 1020px) {
-    .title{
-        width: 60%;
-        font-size: 20px;
-    }
-
-    .Navegacion{
-        width: 40%;
-        font-size: 20px;
-    }
-} */
